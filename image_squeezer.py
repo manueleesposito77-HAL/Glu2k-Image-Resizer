@@ -1111,7 +1111,7 @@ class ImageSqueezer:
 
         # Track checkbuttons and PhotoImage refs
         check_vars = {}
-        photo_refs = []
+        self._dup_photo_refs = []
 
         for gi, group in enumerate(groups):
             # Group header
@@ -1140,7 +1140,7 @@ class ImageSqueezer:
                         pass
                     img.thumbnail((140, 100), Image.LANCZOS)
                     photo = ImageTk.PhotoImage(img)
-                    photo_refs.append(photo)
+                    self._dup_photo_refs.append(photo)
 
                     lbl_img = tk.Label(card, image=photo, bg=C["crust"])
                     lbl_img.pack()
