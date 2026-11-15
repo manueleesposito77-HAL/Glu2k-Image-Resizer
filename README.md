@@ -1,3 +1,7 @@
+> **⚠️ DISCLAIMER**
+>
+> **Il presente software viene fornito "così com'è", senza garanzie di alcun tipo, esplicite o implicite. L'autore non si assume alcuna responsabilità per eventuali danni diretti, indiretti, incidentali o consequenziali derivanti dall'utilizzo, dalla modifica o dalla distribuzione di questo software. L'utilizzo è interamente a rischio e responsabilità dell'utente.**
+
 # Glu2k-Image-Resizer
 
 Applicazione Windows per la compressione batch di immagini con interfaccia grafica e supporto drag & drop.
